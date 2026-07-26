@@ -25,9 +25,17 @@ Lumos Health is an AI-powered non-invasive optical telemetry app that turns any 
 ## 📱 Application Screenshots
 
 <p align="center">
-  <img src="docs/screenshots/login.png" width="31%" alt="Login Screen" />
-  <img src="docs/screenshots/dashboard.png" width="31%" alt="Dashboard Screen" />
-  <img src="docs/screenshots/report.png" width="31%" alt="Biomarker Report Screen" />
+  <img src="docs/screenshots/login.png" width="24%" alt="Login Screen" />
+  <img src="docs/screenshots/dashboard.png" width="24%" alt="Dashboard Screen" />
+  <img src="docs/screenshots/facescan.png" width="24%" alt="Live Face Scan" />
+  <img src="docs/screenshots/analysis.png" width="24%" alt="Realtime Analysis" />
+</p>
+
+<p align="center">
+  <img src="docs/screenshots/report.png" width="24%" alt="Biomarker Report" />
+  <img src="docs/screenshots/aichatbot.png" width="24%" alt="AI Clinical Chatbot" />
+  <img src="docs/screenshots/history.png" width="24%" alt="Scan History" />
+  <img src="docs/screenshots/setting.png" width="24%" alt="Settings & Profile" />
 </p>
 
 ---
