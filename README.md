@@ -1,7 +1,5 @@
 <h1 align="center">
-  <br>
-  <a href="https://github.com/satyajitpratihar07/-Lumos-Health"><img src="docs/screenshots/dashboard.png" alt="Lumos Health Logo" width="180" style="border-radius: 20px;"></a>
-  <br>
+  
   🩺 Lumos Health
   <br>
 </h1>
