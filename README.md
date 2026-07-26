@@ -1,24 +1,29 @@
-# 🩺 Lumos Health — Non-Invasive Optical Telemetry & Dermal AI Platform
+<h1 align="center">
+  <br>
+  <a href="https://github.com/satyajitpratihar07/-Lumos-Health"><img src="docs/screenshots/dashboard.png" alt="Lumos Health Logo" width="180" style="border-radius: 20px;"></a>
+  <br>
+  🩺 Lumos Health
+  <br>
+</h1>
 
-![Android](https://img.shields.io/badge/Android-14%2B-3DDC84?style=for-the-badge&logo=android&logoColor=white)
-![Kotlin](https://img.shields.io/badge/Kotlin-2.0-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
-![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-UI-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white)
-![MongoDB Atlas](https://img.shields.io/badge/MongoDB-Atlas%20Cloud-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![Groq AI](https://img.shields.io/badge/AI-Groq%20LLaMA--3.3--70B-FF6F00?style=for-the-badge&logo=openai&logoColor=white)
+<h3 align="center">AI-Powered Non-Invasive Optical Telemetry & Dermal Diagnostic Platform</h3>
+
+<p align="center">
+  <a href="https://github.com/satyajitpratihar07/-Lumos-Health">
+    <img src="https://img.shields.io/badge/Android-14%2B-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Android 14+">
+    <img src="https://img.shields.io/badge/Kotlin-2.0-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" alt="Kotlin 2.0">
+    <img src="https://img.shields.io/badge/Jetpack%20Compose-UI-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white" alt="Jetpack Compose">
+    <img src="https://img.shields.io/badge/MongoDB-Atlas%20Cloud-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB Atlas">
+    <img src="https://img.shields.io/badge/AI-Groq%20LLaMA--3.3--70B-FF6F00?style=for-the-badge&logo=openai&logoColor=white" alt="Groq LLaMA 3.3 70B">
+    <img src="https://img.shields.io/badge/Security-SHA--256%20Encrypted-D9381E?style=for-the-badge&logo=shield&logoColor=white" alt="SHA-256 Security">
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="Heartbeat Waveform Divider">
+</p>
 
 > **Lumos Health** transforms any standard smartphone camera into a non-invasive vital signs monitor and dermal AI diagnostic terminal. Powered by **Optical Remote Photoplethysmography (rPPG)**, computer vision, and real-time LLM medical reasoning.
-
----
-
-## 📌 GitHub Repository Quick Info
-
-### Short Description (For GitHub Repository Header):
-```text
-Lumos Health is an AI-powered non-invasive optical telemetry app that turns any smartphone camera into a vital signs & dermal health diagnostic tool using rPPG, Jetpack Compose, Groq LLaMA-3.3-70B, and MongoDB Atlas.
-```
-
-### Suggested Repository Topics / Tags:
-`android` • `kotlin` • `jetpack-compose` • `rppg` • `computer-vision` • `ai-healthcare` • `llama3` • `groq` • `mongodb-atlas` • `firebase-auth` • `vital-signs` • `healthtech`
 
 ---
 
@@ -40,6 +45,35 @@ Lumos Health is an AI-powered non-invasive optical telemetry app that turns any 
 
 ---
 
+## ⚡ Real-Time Optical Telemetry Capabilities
+
+| Biomarker Metric | Detection Methodology | Output Range | Clinical Significance |
+|---|---|---|---|
+| **Heart Rate (BPM)** | Sub-dermal green/red spectrum pulse absorption | 45 – 180 BPM | Primary cardiac pulse rate indicator |
+| **Heart Rate Variability (HRV)** | Inter-beat interval (IBI) peak-to-peak analysis | 20 – 120 ms | Autonomic nervous system & stress index |
+| **Blood Oxygen (SpO₂)** | Multi-spectrum oxygenated hemoglobin light ratio | 90% – 100% | Respiratory system efficiency estimate |
+| **Blood Pressure** | Pulse wave transit velocity & arterial stiffness inference | 90/60 – 160/100 mmHg | Systemic vascular resistance estimation |
+| **Vitality Index** | Multi-biomarker weighted fusion matrix | 0% – 100% | Comprehensive holistic health score |
+| **Dermal Hydration** | Facial specular reflection & texture frequency | 0% – 100% | Skin barrier hydration and moisture retention |
+
+---
+
+## 🔬 Optical rPPG & AI Processing Pipeline
+
+```
+  ┌──────────────────────┐      ┌──────────────────────┐      ┌──────────────────────┐
+  │  CameraX RGB Frame   │ ───► │ Sub-Dermal Chromatic │ ───► │ Fast Fourier Transform│
+  │  Extraction (30 FPS) │      │ Pulse Decomposition  │      │ (FFT Peak Frequency) │
+  └──────────────────────┘      └──────────────────────┘      └──────────┬───────────┘
+                                                                         │
+  ┌──────────────────────┐      ┌──────────────────────┐                 │
+  │ MongoDB Atlas Cloud  │ ◄─── │ Groq LLaMA-3.3-70B   │ ◄───────────────┘
+  │ SHA-256 HTTPS Sync   │      │ Medical AI Engine    │
+  └──────────────────────┘      └──────────────────────┘
+```
+
+---
+
 ## 🌟 Key Features
 
 - **🫀 Optical rPPG Telemetry**: Real-time measurement of Heart Rate (BPM), Heart Rate Variability (HRV), Blood Pressure estimates, Respiratory Rate, and SpO₂ without external wearables.
@@ -51,28 +85,13 @@ Lumos Health is an AI-powered non-invasive optical telemetry app that turns any 
 
 ---
 
-## 🛠️ Architecture & Tech Stack
+## 🛠️ Technology Stack
 
-```
- ┌─────────────────────────────────────────────────────────────┐
- │                      Lumos Health App                       │
- └──────────────┬──────────────────────────────┬───────────────┘
-                │                              │
-     Offline-First Local Sync        Encrypted HTTPS REST Sync
-                ▼                              ▼
- ┌─────────────────────────────┐┌──────────────────────────────┐
- │     Room SQLite Database    ││      MongoDB Atlas Cloud     │
- │  - Local Offline Backup     ││  - patient_reports Collection│
- │  - Instant Zero-Latency     ││  - users Collection          │
- └─────────────────────────────┘│  - user_logins Collection    │
-                                └──────────────────────────────┘
-```
-
-| Component | Technology |
+| Layer | Technologies Used |
 |---|---|
-| **Language & SDK** | Kotlin, Android SDK 34/36, Gradle (KTS) |
+| **Mobile OS & Language** | Android 14+ (API 34/36), Kotlin 2.0 |
 | **UI Framework** | Jetpack Compose, Material Design 3, Glassmorphism Canvas |
-| **Camera & Image Processing** | Android CameraX API, Hardware Image Analysis |
+| **Camera & Vision** | CameraX API, Hardware Image Analysis |
 | **Local Database** | Room Database (SQLite) with Kotlin Coroutines & Flow |
 | **Cloud Database** | MongoDB Atlas (`mongodb-driver-sync` + OkHttp HTTPS REST API) |
 | **Authentication** | Firebase Auth + Google Credential Manager API |
@@ -89,12 +108,12 @@ Lumos Health is an AI-powered non-invasive optical telemetry app that turns any 
 
 ### 2. Clone & Build
 ```bash
-git clone https://github.com/your-username/lumos-health.git
-cd lumos-health
+git clone https://github.com/satyajitpratihar07/-Lumos-Health.git
+cd -Lumos-Health
 ```
 
 ### 3. Open in Android Studio
-1. Open Android Studio → **File → Open** → Select `lumos-health`.
+1. Open Android Studio → **File → Open** → Select `-Lumos-Health`.
 2. Sync project with Gradle files.
 3. Click **Run ▶** (`Shift + F10`) to deploy to your device!
 
