@@ -1,131 +1,356 @@
-<h1 align="center">
-  
-  🩺 Lumos Health
-  <br>
-</h1>
+# <div align="center">
 
-<h3 align="center">AI-Powered Non-Invasive Optical Telemetry & Dermal Diagnostic Platform</h3>
+<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=700&size=34&duration=3000&pause=1000&color=00E5FF&center=true&vCenter=true&width=900&lines=🩺+Lumos+Health;AI-Powered+Optical+Health+Monitoring+Platform;Non-Invasive+rPPG+Telemetry+%26+Dermal+AI;Real-Time+Medical+Intelligence" />
 
-<p align="center">
-  <a href="https://github.com/satyajitpratihar07/-Lumos-Health">
-    <img src="https://img.shields.io/badge/Android-14%2B-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Android 14+">
-    <img src="https://img.shields.io/badge/Kotlin-2.0-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" alt="Kotlin 2.0">
-    <img src="https://img.shields.io/badge/Jetpack%20Compose-UI-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white" alt="Jetpack Compose">
-    <img src="https://img.shields.io/badge/MongoDB-Atlas%20Cloud-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB Atlas">
-    <img src="https://img.shields.io/badge/AI-Groq%20LLaMA--3.3--70B-FF6F00?style=for-the-badge&logo=openai&logoColor=white" alt="Groq LLaMA 3.3 70B">
-    <img src="https://img.shields.io/badge/Security-SHA--256%20Encrypted-D9381E?style=for-the-badge&logo=shield&logoColor=white" alt="SHA-256 Security">
-  </a>
-</p>
+<h1>🩺 Lumos Health</h1>
+
+### **AI-Powered Non-Invasive Optical Telemetry & Intelligent Health Analytics Platform**
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="Heartbeat Waveform Divider">
+
+<img src="https://img.shields.io/github/stars/satyajitpratihar07/-Lumos-Health?style=for-the-badge&color=FFD700"/>
+<img src="https://img.shields.io/github/forks/satyajitpratihar07/-Lumos-Health?style=for-the-badge&color=00E5FF"/>
+<img src="https://img.shields.io/github/license/satyajitpratihar07/-Lumos-Health?style=for-the-badge&color=00C853"/>
+<img src="https://img.shields.io/github/last-commit/satyajitpratihar07/-Lumos-Health?style=for-the-badge&color=FF6D00"/>
+
+<br>
+
+<img src="https://img.shields.io/badge/Android-14+-3DDC84?style=for-the-badge&logo=android&logoColor=white"/>
+<img src="https://img.shields.io/badge/Kotlin-2.0-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white"/>
+<img src="https://img.shields.io/badge/Jetpack%20Compose-Material%203-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white"/>
+<img src="https://img.shields.io/badge/MongoDB-Atlas-47A248?style=for-the-badge&logo=mongodb&logoColor=white"/>
+<img src="https://img.shields.io/badge/Groq-LLaMA%203.3--70B-FF6F00?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/CameraX-rPPG-00BCD4?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Firebase-Google%20Auth-FFCA28?style=for-the-badge&logo=firebase"/>
+<img src="https://img.shields.io/badge/SHA--256-Secure-D50000?style=for-the-badge"/>
+
 </p>
 
-> **Lumos Health** transforms any standard smartphone camera into a non-invasive vital signs monitor and dermal AI diagnostic terminal. Powered by **Optical Remote Photoplethysmography (rPPG)**, computer vision, and real-time LLM medical reasoning.
+<img src="https://capsule-render.vercel.app/api?type=waving&height=140&color=0:0F2027,50:203A43,100:2C5364&text=Lumos%20Health&fontColor=ffffff&fontAlignY=35&animation=fadeIn"/>
+
+</div>
 
 ---
 
-## 📱 Application Screenshots
+# ✨ Overview
+
+**Lumos Health** transforms a standard smartphone camera into an advanced AI-powered health monitoring device using **Remote Photoplethysmography (rPPG)**, Computer Vision, Signal Processing, Artificial Intelligence, and Cloud Computing.
+
+The application performs **real-time physiological estimation**, **facial health analysis**, **skin assessment**, **medical AI reasoning**, and **encrypted cloud synchronization**—all from a simple face scan.
+
+---
+
+# 🌌 Interactive Project Banner
 
 <p align="center">
-  <img src="docs/screenshots/login.png" width="24%" alt="Login Screen" />
-  <img src="docs/screenshots/dashboard.png" width="24%" alt="Dashboard Screen" />
-  <img src="docs/screenshots/facescan.png" width="24%" alt="Live Face Scan" />
-  <img src="docs/screenshots/analysis.png" width="24%" alt="Realtime Analysis" />
-</p>
 
-<p align="center">
-  <img src="docs/screenshots/report.png" width="24%" alt="Biomarker Report" />
-  <img src="docs/screenshots/aichatbot.png" width="24%" alt="AI Clinical Chatbot" />
-  <img src="docs/screenshots/history.png" width="24%" alt="Scan History" />
-  <img src="docs/screenshots/setting.png" width="24%" alt="Settings & Profile" />
+<img src="https://user-images.githubusercontent.com/74038190/212744275-2d67b4d7-f80b-4f2f-b0d6-f09f6c95d9b6.gif" width="100%"/>
+
 </p>
 
 ---
 
-## ⚡ Real-Time Optical Telemetry Capabilities
+# 📱 Application Preview
 
-| Biomarker Metric | Detection Methodology | Output Range | Clinical Significance |
-|---|---|---|---|
-| **Heart Rate (BPM)** | Sub-dermal green/red spectrum pulse absorption | 45 – 180 BPM | Primary cardiac pulse rate indicator |
-| **Heart Rate Variability (HRV)** | Inter-beat interval (IBI) peak-to-peak analysis | 20 – 120 ms | Autonomic nervous system & stress index |
-| **Blood Oxygen (SpO₂)** | Multi-spectrum oxygenated hemoglobin light ratio | 90% – 100% | Respiratory system efficiency estimate |
-| **Blood Pressure** | Pulse wave transit velocity & arterial stiffness inference | 90/60 – 160/100 mmHg | Systemic vascular resistance estimation |
-| **Vitality Index** | Multi-biomarker weighted fusion matrix | 0% – 100% | Comprehensive holistic health score |
-| **Dermal Hydration** | Facial specular reflection & texture frequency | 0% – 100% | Skin barrier hydration and moisture retention |
+<div align="center">
+
+| Login | Dashboard | Face Scan | Analysis |
+|--------|-----------|-----------|----------|
+| <img src="docs/screenshots/login.png" width="220"/> | <img src="docs/screenshots/dashboard.png" width="220"/> | <img src="docs/screenshots/facescan.png" width="220"/> | <img src="docs/screenshots/analysis.png" width="220"/> |
+
+| Medical Report | AI Assistant | History | Settings |
+|---------------|-------------|---------|----------|
+| <img src="docs/screenshots/report.png" width="220"/> | <img src="docs/screenshots/aichatbot.png" width="220"/> | <img src="docs/screenshots/history.png" width="220"/> | <img src="docs/screenshots/setting.png" width="220"/> |
+
+</div>
 
 ---
 
-## 🔬 Optical rPPG & AI Processing Pipeline
+# ⚡ Live Feature Showcase
+
+```text
+🟢 Camera Started...
+█████████████████████████████ 100%
+
+✔ Face Detected
+✔ Signal Stabilized
+✔ Heart Pulse Captured
+✔ FFT Analysis Completed
+✔ AI Medical Analysis Ready
+✔ Cloud Sync Completed
+
+Status : HEALTHY
+```
+
+---
+
+# 🧠 AI Processing Architecture
+
+```text
+
+                      ┌─────────────────────────────┐
+                      │      CameraX (30 FPS)       │
+                      └──────────────┬──────────────┘
+                                     │
+                                     ▼
+                     ┌─────────────────────────────┐
+                     │ Face Detection & Landmark AI│
+                     └──────────────┬──────────────┘
+                                     │
+                                     ▼
+               ┌──────────────────────────────────────────┐
+               │ Remote Photoplethysmography (rPPG Engine)│
+               └──────────────┬───────────────────────────┘
+                              │
+         ┌────────────────────┼────────────────────┐
+         ▼                    ▼                    ▼
+ Heart Rate             Respiratory Rate        HRV
+ Blood Pressure         SpO₂ Estimate           Stress
+
+                              │
+                              ▼
+
+                 Signal Filtering & FFT Analysis
+
+                              │
+                              ▼
+
+               ┌──────────────────────────────────┐
+               │ AI Medical Reasoning (Groq LLM)  │
+               └──────────────────────────────────┘
+                              │
+                              ▼
+
+             MongoDB Atlas + Local Room Database
 
 ```
-  ┌──────────────────────┐      ┌──────────────────────┐      ┌──────────────────────┐
-  │  CameraX RGB Frame   │ ───► │ Sub-Dermal Chromatic │ ───► │ Fast Fourier Transform│
-  │  Extraction (30 FPS) │      │ Pulse Decomposition  │      │ (FFT Peak Frequency) │
-  └──────────────────────┘      └──────────────────────┘      └──────────┬───────────┘
-                                                                         │
-  ┌──────────────────────┐      ┌──────────────────────┐                 │
-  │ MongoDB Atlas Cloud  │ ◄─── │ Groq LLaMA-3.3-70B   │ ◄───────────────┘
-  │ SHA-256 HTTPS Sync   │      │ Medical AI Engine    │
-  └──────────────────────┘      └──────────────────────┘
+
+---
+
+# 🚀 Core Features
+
+| Feature | Description |
+|----------|-------------|
+| ❤️ Real-Time Heart Rate | Optical pulse estimation using facial blood flow |
+| 🩸 Blood Pressure | AI estimated systolic & diastolic pressure |
+| 🫁 Respiratory Rate | Respiratory waveform estimation |
+| 💙 Blood Oxygen | Estimated SpO₂ calculation |
+| ⚡ Heart Rate Variability | Peak-to-Peak interval analysis |
+| 😊 Emotion Detection | Facial emotion recognition |
+| 😴 Fatigue Detection | Blink frequency & eye openness |
+| 🧬 Skin Analysis | Acne, pigmentation, wrinkles, hydration |
+| 👁 Eye Tracking | Eye movement & blink monitoring |
+| 🧠 AI Medical Assistant | Groq LLaMA 3.3 powered chatbot |
+| 📑 Prescription Scanner | OCR + AI medicine explanation |
+| 📈 Historical Analytics | Daily & monthly trends |
+| ☁ Cloud Sync | MongoDB Atlas |
+| 🔐 SHA-256 Security | Tamper-proof health records |
+| 🌐 Offline Support | Room Database |
+
+---
+
+# 📊 Supported Health Metrics
+
+| Metric | Status |
+|---------|--------|
+| ❤️ Heart Rate | ✅ |
+| 💙 SpO₂ | ✅ |
+| ❤️ HRV | ✅ |
+| 🫁 Respiratory Rate | ✅ |
+| 🩸 Blood Pressure | ✅ Estimated |
+| 😃 Stress Level | ✅ |
+| 😊 Emotion | ✅ |
+| 😴 Fatigue | ✅ |
+| 💧 Skin Hydration | ✅ |
+| 🌞 Skin Brightness | ✅ |
+| 🩹 Acne Detection | ✅ |
+| 👁 Dark Circles | ✅ |
+| 😊 Smile Detection | ✅ |
+| 😵 Eye Blink | ✅ |
+| 🧠 Wellness Score | ✅ |
+
+---
+
+# 🎨 Modern UI Highlights
+
+✨ Glassmorphism Interface
+
+✨ Live ECG Animation
+
+✨ Neon Health Dashboard
+
+✨ Animated Circular Progress
+
+✨ Medical Telemetry Cards
+
+✨ Dynamic Particle Background
+
+✨ Liquid Gradient Effects
+
+✨ Smooth Material Motion
+
+✨ AI Typing Animation
+
+✨ Pulse Wave Animation
+
+✨ Realtime Glow Effects
+
+✨ Responsive Layout
+
+---
+
+# 🛠 Tech Stack
+
+| Category | Technology |
+|-----------|------------|
+| Language | Kotlin 2.0 |
+| UI | Jetpack Compose |
+| Material | Material 3 |
+| Camera | CameraX |
+| AI | Groq LLaMA-3.3 |
+| Backend | MongoDB Atlas |
+| Database | Room SQLite |
+| Authentication | Firebase Auth |
+| OCR | ML Kit |
+| Networking | Retrofit + OkHttp |
+| Charts | MPAndroidChart |
+| Coroutines | Kotlin Flow |
+| Encryption | SHA-256 |
+
+---
+
+# 🔒 Security
+
+```text
+✔ SHA-256 Password Hashing
+
+✔ HTTPS TLS 1.3
+
+✔ Secure MongoDB Authentication
+
+✔ AI Request Validation
+
+✔ Health Report Integrity Check
+
+✔ Encrypted Local Storage
+
+✔ Tamper Detection
+
+✔ Session Authentication
+
+✔ Secure Google Login
+
+✔ Offline-first Architecture
 ```
 
 ---
 
-## 🌟 Key Features
+# 📂 Project Structure
 
-- **🫀 Optical rPPG Telemetry**: Real-time measurement of Heart Rate (BPM), Heart Rate Variability (HRV), Blood Pressure estimates, Respiratory Rate, and SpO₂ without external wearables.
-- **🔬 Facial Behavior & Dermal AI**: Calculates a personalized **Vitality Index Score (0–100%)** alongside dermal metrics (hydration, acne risk, dark circles, wrinkles, and eye blink rate).
-- **🤖 Groq LLaMA-3.3-70B Health Assistant**: Conversational AI assistant augmented with live search context (openFDA, Wikipedia, and DuckDuckGo APIs).
-- **🎨 Glassmorphic Telemetry UI**: Translucent dark mode design featuring smooth horizontal scrolling medical ECG waveforms, laser sweep beams, and pulsing telemetry nodes.
-- **🔑 Google Authentication**: One-Tap Google Sign-In with official 4-color Google "G" branding and persistent local session lock.
-- **🛡️ Enterprise Security & MongoDB Atlas Sync**: Dual-database architecture using **Room SQLite** for zero-latency offline storage and **MongoDB Atlas Cloud** for encrypted HTTPS REST sync with SHA-256 digital tamper signatures.
+```
+Lumos-Health/
+
+├── app/
+├── ui/
+├── navigation/
+├── camera/
+├── ai/
+├── authentication/
+├── database/
+├── repository/
+├── network/
+├── chatbot/
+├── reports/
+├── analytics/
+├── settings/
+├── assets/
+├── docs/
+├── screenshots/
+├── LICENSE
+└── README.md
+```
 
 ---
 
-## 🛠️ Technology Stack
+# 🚀 Getting Started
 
-| Layer | Technologies Used |
-|---|---|
-| **Mobile OS & Language** | Android 14+ (API 34/36), Kotlin 2.0 |
-| **UI Framework** | Jetpack Compose, Material Design 3, Glassmorphism Canvas |
-| **Camera & Vision** | CameraX API, Hardware Image Analysis |
-| **Local Database** | Room Database (SQLite) with Kotlin Coroutines & Flow |
-| **Cloud Database** | MongoDB Atlas (`mongodb-driver-sync` + OkHttp HTTPS REST API) |
-| **Authentication** | Firebase Auth + Google Credential Manager API |
-| **LLM & Search Engines** | Groq LLaMA-3.3-70B Versatile, openFDA, Wikipedia API |
-
----
-
-## 🚀 Getting Started
-
-### 1. Prerequisites
-- Android Studio Ladybug (2024.2.1+) or newer.
-- Android device or emulator running **Android 14+ (API Level 34+)** with a camera.
-- Java JDK 17+.
-
-### 2. Clone & Build
 ```bash
 git clone https://github.com/satyajitpratihar07/-Lumos-Health.git
+
 cd -Lumos-Health
 ```
 
-### 3. Open in Android Studio
-1. Open Android Studio → **File → Open** → Select `-Lumos-Health`.
-2. Sync project with Gradle files.
-3. Click **Run ▶** (`Shift + F10`) to deploy to your device!
+Open Android Studio
+
+```
+Sync Gradle
+
+Run Project
+
+Connect Camera
+
+Start Face Scan
+```
 
 ---
 
-## 🔒 Security & Data Encryption
+# 🌟 Future Roadmap
 
-Lumos Health enforces end-to-end data security:
-- **SHA-256 Password Protection**: Passwords are hashed locally before storage.
-- **Cryptographic Checksums (`securityChecksum`)**: Digital SHA-256 signatures are generated for every medical report payload (`userEmail + timestamp + heartRate + wellnessScore`) to prevent data tampering.
-- **TLS 1.3 Transport**: Encrypted HTTPS REST communication ensures safe data transfer across public Wi-Fi and mobile networks.
+- ✅ Wear OS Integration
+- ✅ Smartwatch Connectivity
+- ✅ Bluetooth Medical Devices
+- ✅ ECG Sensor Integration
+- ✅ AI Disease Prediction
+- ✅ Doctor Consultation
+- ✅ Medicine Reminder
+- ✅ PDF Medical Reports
+- ✅ Multi-language Support
+- ✅ Family Health Dashboard
 
 ---
 
-## 📄 License
+# 📈 GitHub Stats
 
-Distributed under the MIT License. See `LICENSE` for more information.
+<p align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=satyajitpratihar07&show_icons=true&theme=tokyonight"/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=satyajitpratihar07&theme=tokyonight"/>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=satyajitpratihar07&layout=compact&theme=tokyonight"/>
+
+</p>
+
+---
+
+# 💙 Support
+
+If you like this project,
+
+⭐ Star the repository
+
+🍴 Fork it
+
+🛠 Contribute
+
+🐛 Report Issues
+
+---
+
+<div align="center">
+
+## 👨‍💻 Developed By
+
+# **Satyajit Pratihar**
+
+### 🚀 AI • Android • Computer Vision • Healthcare Technology
+
+<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=700&size=24&duration=2500&pause=1000&color=00E5FF&center=true&vCenter=true&width=700&lines=Designed+and+Developed+with+❤️;Building+Next+Generation+AI+Healthcare;Android+Developer+%7C+AI+Engineer;Lumos+Health"/>
+
+---
+
+### ⭐ Thanks for visiting the project!
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:2C5364,50:203A43,100:0F2027"/>
+
+</div>
