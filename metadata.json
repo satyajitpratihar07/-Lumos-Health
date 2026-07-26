@@ -1,0 +1,6 @@
+{
+  "name": "Face Health Monitor",
+  "description": "A premium AI-powered medical-grade Face Health Monitoring System that estimates vitals, skin quality, cardiorespiratory health, and overall wellness.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "192042747667",
+    "project_id": "lumos-health-391e2",
+    "storage_bucket": "lumos-health-391e2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:192042747667:android:928f0e9671ef35041abce6",
+        "android_client_info": {
+          "package_name": "com.aistudio.facehealthmonitor.kfqwvy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "192042747667-g0un80f96kfp8phf8ga9mqrl2qmsd9fl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvGCbgNmuQVse1yh7nKqVNucAizhZrCLU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "192042747667-g0un80f96kfp8phf8ga9mqrl2qmsd9fl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
