@@ -30,6 +30,39 @@
 
 </div>
 
+------
+
+# 📱 Download Android App
+
+<div align="center">
+
+### 🚀 Experience **Lumos Health** on your Android device
+
+Download the latest APK and start monitoring your health with AI-powered optical scanning.
+
+<br>
+
+<a href="https://drive.google.com/uc?export=download&id=18XtzDpSvjkp7myYRKNYtnR3lXZG0297W">
+  <img src="https://img.shields.io/badge/⬇️%20Download-Lumos%20Health%20APK-00C853?style=for-the-badge&logo=android&logoColor=white" alt="Download APK">
+</a>
+
+<br><br>
+
+📦 **Latest Release:** `Lumos.apk`
+
+📱 **Platform:** Android 14+
+
+⚡ **Size:** *(Update with APK size)*
+
+🔐 **Secure Google Drive Download**
+
+<br>
+
+> **Can't download?**  
+> Click here 👉 **[Download Lumos Health APK](https://drive.google.com/uc?export=download&id=18XtzDpSvjkp7myYRKNYtnR3lXZG0297W)**
+
+</div>
+
 ---
 
 # ✨ Overview
